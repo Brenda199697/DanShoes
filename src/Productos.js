@@ -12,7 +12,7 @@ function Productos(props){
                     key={item.id} 
                     id={item.id} 
                     title={item.title} 
-                    image={item.image} 
+                    image={item.image}
                     rating={item.rating} />
 
                 )

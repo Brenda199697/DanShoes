@@ -1,9 +1,8 @@
 import React from 'react';
 import Search from './Search'
 import './Home.css';
-import CartWidget from './CartWidget';
 
-function Home(props){
+function HomeContext(props){
     return(
        <div className="container">
         <div className="subcontainer">
@@ -18,7 +17,8 @@ function Home(props){
            <div className="actions">
              <button className="button btn-blue">+ Añadir al carrito</button>
            </div>
-           </div>
+
+        </div>
         
        </div>
 
@@ -26,4 +26,4 @@ function Home(props){
 }
 
 
-export default Home;
+export default HomeContext;

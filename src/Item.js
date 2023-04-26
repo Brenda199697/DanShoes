@@ -1,5 +1,6 @@
 import React from 'react';
 import './Item.css';
+import CartWidget from './CartWidget';
 
 function Item(props){
      
@@ -22,7 +23,9 @@ function Item(props){
                 </select>
             </div>
             <div className="actions">
-                <button>Añadir al carrito</button>
+                <button> Añadir al carrito
+                <CartWidget/>
+                </button>
             </div>
         </div>
     );
